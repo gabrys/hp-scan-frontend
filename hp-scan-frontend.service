@@ -1,0 +1,10 @@
+[Unit]
+Description=HP Scan Frontend
+
+[Service]
+ExecStart=/opt/hp-scan-frontend/start_server.sh
+User=hpweb
+Group=lp
+
+[Install]
+WantedBy=multi-user.target
