@@ -1,5 +1,6 @@
 # hp-scan-frontend
-CGI script for getting the scanned page as JPG
+
+CGI script for getting multi-page PDFs generated from an HP scanner
 
 # INSTALLATION
 
