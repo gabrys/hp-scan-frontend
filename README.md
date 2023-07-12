@@ -3,6 +3,15 @@ CGI script for getting the scanned page as JPG
 
 # INSTALLATION
 
+Dependencies:
+
+* Python 3
+* aha
+* img2pdf
+* pdfunite (from poppler-utils)
+* hp-scan (from hplip)
+* ImageMagick
+
 ```
 sudo useradd hpweb -G lp
 sudo git clone https://github.com/gabrys/hp-scan-frontend /opt/hp-scan-frontend
