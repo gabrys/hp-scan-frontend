@@ -1,12 +1,12 @@
 # hp-scan-frontend
 CGI script for getting the scanned page as JPG
 
-INSTALLATION
+# INSTALLATION
 
 ```
-cd /opt
-sudo git clone https://github.com/gabrys/hp-scan-frontend
 sudo useradd hpweb -G lp
+sudo git clone https://github.com/gabrys/hp-scan-frontend /opt/hp-scan-frontend
+cd /opt/hp-scan-frontend
 sudo chown hpweb:hpweb data
 sudo cp hp-scan-frontend.service /etc/systemd/system/hp-scan-frontend.service
 sudo systemctl daemon-reload
